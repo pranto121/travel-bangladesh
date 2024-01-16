@@ -286,6 +286,14 @@ font-weight: 300;
 /* media query */
 
 @media screen and (max-width:600px) {
+    .containar{
+        overflow: hidden;
+        width: 335px;
+          height: 483px;
+         flex-shrink: 0;
+    }
+
+
     
     
     .hedar-btn-section ,.btn , .sarves {
@@ -293,13 +301,17 @@ font-weight: 300;
 
 
     } 
-    
+    .image{
+        width: 335px;
+height: 342px;
+flex-shrink: 0;
+    }
 
      
     .main-section ,.news-section,  .row-1 ,.row-2 ,.news-section{
         flex-direction: column;
         width: 50%;
-        
+
 
     }
    .row{
@@ -318,6 +330,9 @@ font-weight: 300;
    .end-section{
     width: 50%;
 
+   }
+   .news-img{
+    max-width:40%;
    }
    
    .sosal-link{
