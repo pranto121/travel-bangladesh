@@ -322,6 +322,13 @@ hr {
   .image img {
     width: 250px;
   }
+  .news-title{
+    width: 400px;
+  }
+ .news-img{
+    width: 400px;
+ }
+  
   .containar-section {
     width: 40%;
     overflow: hidden;
@@ -329,6 +336,9 @@ hr {
   .place-section {
     text-align: start;
     max-width: 350px;
+  }
+  .place-discaption{
+    text-align: start;
   }
   .place-caption {
     font-size: 20px;
@@ -378,4 +388,18 @@ hr {
   .sosal-link {
     margin-left: 200px;
   }
+  hr{
+    width:400px;
+  }
+  .footer-taitel{
+    width: 400px;
+  }
+  .sosal-link{
+    margin-left: 60px;
+  }
+ .copy-right{
+    /* width: 200px; */
+    margin-left: 10px;
+ }
 }
+
